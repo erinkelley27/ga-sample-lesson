@@ -79,12 +79,12 @@ Does `var car` contain the `engine` property? Does `var jeep`?
 You may be thinking, isn't this what we already overed with classes in OOP? Class inheritance and prototypal inheritance may be similar, but they are not the same. Do you know the difference?
 
 <details>
-    <summary>**Class Inheritance**</summary>
-A class is like a blueprint — a description of the object to be created. Classes inherit from classes and create subclass relationships: hierarchical class taxonomies.
+    <summary>Class Inheritance</summary>
+A class is like a blueprint — an idea of the object to be created. Classes inherit from classes and create subclass relationships.
 </details>
 
 <details>
-    <summary>**Prototypal Inheritance**</summary>
+    <summary>Prototypal Inheritance</summary>
 A prototype is a working object instance. Objects inherit directly from other objects.
 </details>
 
