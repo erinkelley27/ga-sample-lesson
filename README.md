@@ -3,7 +3,7 @@
 ## Learning Objectives
 
 * Describe prototypal inheritance
-* Describe a use-case for prototypal inhertiance
+* Describe a use-case for prototypal inheritance
 * Explain the benefits of prototypal inheritance and its flexibility
 
 ## Prototype: The Hidden Property
@@ -27,7 +27,7 @@ var car = {
     }
 };
 ```
-Add this code snippet into the console and hit `return`. Next,type in `car.drive()`. What happens?
+Add this code snippet into the console and hit `return`. Type in `car.drive()`. What happens?
 
 Next, let's create a new object called `jeep`. Here, we will add a few new properties that are unique to the `jeep` - `make`, `model`, and `year`.
 ```
@@ -37,7 +37,7 @@ var jeep = {
     year: "2007"
 };
 ```
-Here comes the fun part: we are also going to `__proto__` to set a prototype. We want to make `var car` the prototype for all of the other cars. When we do this, the properties and methods of `var car` will be passed down to `jeep`.
+Here comes the fun part: we are also going to use `__proto__` to set a prototype. We want to make `var car` the prototype for all of the other cars. When we do this, the properties and methods of `var car` will be passed down to `var jeep`.
 ```
 var jeep = {
     make: "Jeep",
@@ -64,24 +64,20 @@ var jeep = Object.create(car);
 
 jeep.drive(); // 'vroom vroom'
 ```
+
 Keep in mind, the child object only has access to the properties of the parent object, through the **prototype chain** (the hidden link between the parent and child objects). It does not have these properties itself. 
 
 Does `var car` contain the `engine` property? Does `var jeep`?
-<!-- 
-## Class Inhertance vs Prototypal Inhertiance
-
-Are you thinking, isn't this what we just learned with classes in OOJ? Nope! It's similar but not the same.  -->
 
 ## Why is this useful for programmers?
 
-**Simple**
-Prototypal inhertiance is easy to understand, easy to implement. Do you agree? Do you think prototypal inhertiance to be simple?
+**Simple |**
+Prototypal inhertiance is easy to understand and easy to implement. Do you agree?
 
-**Smaller, less redundant code**
+**Smaller, less redundant code |**
 Prototypal inhertiance reduces the redundancy of code. Programmers do not need to code properties or methods that objects have in common over and over again because they can be passed from a parent to a child object. Basically, it helps keep your code DRY.
 
-**Flexible & Dynamic**
-
+**Flexible |**
 New properties and methods can be added to prototypes after they are created. These will be automatically passed down to all child objects of the prototype.
 
 ## Conclusion
@@ -91,6 +87,6 @@ So what is **prototypal inhertiance**? Simply put, it is when an object inherits
 ## Additional Reading
 
 * [Prototypal Inheritance in Javascript](https://medium.com/@kevincennis/prototypal-inheritance-781bccc97edb)
-* [Inheritnce and the Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+* [Inheritance and the Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 * [Prototypal Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 * [Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9)
