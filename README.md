@@ -12,11 +12,11 @@ You may know that objects can inherit from other objects. But did you know that 
 
 ## Relevant Review: Functions, Methods & Constructors
 
-In simplified terms, a function is a block of code that takes an input, processes that input and then produces some form of output. A method is a function that is attached to an object. A **constructor** is a special method that will be invoked whenever we create a new instance of an object or class. All three are functions,but only a constructor can be passed down to another object throught prototypal inhertiance.
+In simplified terms, a **function** is a block of code that takes an input, processes that input and then produces some form of output. A **method** is a function that is attached to an object. A **constructor** is a special method that will be invoked whenever we create a new instance of an object or class. All three are functions,but only a constructor can be passed down to another object throught prototypal inhertiance.
 
 ## Example
 
-Let's take the example of renting a car and create an object called `car`, add properties for `engine`, `tires` and `steeringWheel`, and a method for `drive`.
+Let's take the example of renting a car and create an object called `car`, add properties for `engine`, `tires`, and a method for `drive`.
 
 ```
 var car = {
@@ -90,7 +90,7 @@ So what is **prototypal inhertiance**? Simply put, it is when an object inherits
 
 ## Additional Reading
 
-** [Prototypal Inheritance in Javascript](https://medium.com/@kevincennis/prototypal-inheritance-781bccc97edb)
+* [Prototypal Inheritance in Javascript](https://medium.com/@kevincennis/prototypal-inheritance-781bccc97edb)
 * [Inheritnce and the Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 * [Prototypal Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 * [Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9)
