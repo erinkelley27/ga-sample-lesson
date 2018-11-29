@@ -74,11 +74,14 @@ Keep in mind, the child object only has access to the properties of the parent o
 
 Does `var car` contain the `engine` property? Does `var jeep`?
 
-## Class Inheritance vs Prototypal Inhertiance
+## Class Inheritance vs Prototypal Inheritance
 
-You may be thinking, isn't this what we already overed with classes in OOJ? Class inheritance and prototypal inheritance may be similar, but they are not the same.
+You may be thinking, isn't this what we already overed with classes in OOP? Class inheritance and prototypal inheritance may be similar, but they are not the same.
 
-**Class Inheritance |** A class is like a blueprint — a description of the object to be created. Classes inherit from classes and create subclass relationships: hierarchical class taxonomies.
+<details>
+    <summary>Class Inheritance</summary>
+A class is like a blueprint — a description of the object to be created. Classes inherit from classes and create subclass relationships: hierarchical class taxonomies.
+</details>
 
 **Prototypal Inheritance |** A prototype is a working object instance. Objects inherit directly from other objects.
 
