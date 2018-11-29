@@ -83,7 +83,7 @@ Prototypal inhertiance is easy to understand and easy to implement. Do you agree
 Prototypal inhertiance reduces the redundancy of code. Programmers do not need to code properties or methods that objects have in common over and over again because they can be passed from a parent to a child object. Basically, it helps keep your code DRY.
 
 **Flexible |**
-New properties and methods can be added to prototypes after they are created. These will be automatically passed down to all child objects of the prototype.
+There are many ways to impement prototypal inheritance, and each programmer can decide what works best for them. We covered two here - check out the additional reading to learn more.
 
 ## Conclusion
 
