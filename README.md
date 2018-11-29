@@ -3,8 +3,9 @@
 ## Learning Objectives
 
 * Describe prototypal inheritance
-* Describe a use-case for prototypal inheritance
-* Explain the benefits of prototypal inheritance and its flexibility
+* Demonstrate a use-case for prototypal inheritance
+* Demonstrate the flexibility of prototypal inheritance
+* Explain the benefits of prototypal inheritance
 
 ## Prototype: The Hidden Property
 
