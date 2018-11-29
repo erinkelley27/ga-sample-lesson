@@ -34,7 +34,7 @@ Next, let's create a new object called `jeep`. Here, we will add a few new prope
 var jeep = {
     make: "Jeep",
     model: "Wrangler",
-    year: "2007"
+    year: 2007
 };
 ```
 Here comes the fun part: we are also going to use `__proto__` to set a prototype. We want to make `var car` the prototype for all of the other cars. When we do this, the properties and methods of `var car` will be passed down to `var jeep`.
