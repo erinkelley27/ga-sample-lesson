@@ -42,7 +42,7 @@ Here comes the fun part: we are also going to use `__proto__` to set a prototype
 var jeep = {
     make: "Jeep",
     model: "Wrangler",
-    year: "2007",
+    year: 2007,
     __proto__: car
 };
 ```
@@ -64,7 +64,12 @@ var jeep = Object.create(car);
 
 jeep.drive(); // 'vroom vroom'
 ```
-
+You can populate the child object `var jeep` with unique properties.
+```
+jeep.make = "Jeep",
+jeep.model = "Wrangler",
+jeep.year = 2007
+```
 Keep in mind, the child object only has access to the properties of the parent object, through the **prototype chain** (the hidden link between the parent and child objects). It does not have these properties itself. 
 
 Does `var car` contain the `engine` property? Does `var jeep`?
